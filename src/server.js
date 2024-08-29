@@ -21,7 +21,7 @@ app.use(
 app.use(cookieParser());
 app.use(
   cors({
-    origin: `https://todomernsalman.onrender.com/`,
+    origin: `https://todomernsalman.onrender.com`,
     credentials: true,
   })
 );
