@@ -3,7 +3,7 @@ import { handleError } from "../utils/handleError.js"
 
 export const connectToDB = async () => {
     try {
-        await mongoose.connect(`https://todomernsalman.onrender.com/`, {
+        await mongoose.connect(process.env.MONGO_URI, {
             dbName: "ToDo"
         })
         .then((db) => {
