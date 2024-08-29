@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Set up base URL for axios to avoid repeating it
-const BASE_URL = import.meta.env.VITE_BACKEND_URI;
+const BASE_URL = 'https://todomernsalman.onrender.com/';
 
 // Async Thunks for CRUD operations
 
